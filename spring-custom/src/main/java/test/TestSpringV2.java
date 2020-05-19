@@ -51,6 +51,15 @@ public class TestSpringV2 {
         parseBeanDefinitions(document.getRootElement());
     }
 
+    @Test
+    public void test() {
+        UserService userService = (UserService) getBean("userService");
+        Map<String, Object> param = new HashMap<String, Object>();
+        param.put("username", "方方");
+        List<User> users = userService.queryUsers(param);
+        System.out.println(users);
+    }
+
     private void parseBeanDefinitions(Element rootElement) {
         // 获取<bean>和自定义标签（比如mvc:interceptors）
         List<Element> elements = rootElement.elements();
@@ -189,14 +198,7 @@ public class TestSpringV2 {
     }
 
 
-    @Test
-    public void test() {
-        UserService userService = (UserService) getBean("userService");
-        Map<String, Object> param = new HashMap<String, Object>();
-        param.put("username", "方方");
-        List<User> users = userService.queryUsers(param);
-        System.out.println(users);
-    }
+
 
 //    private UserServiceImpl getBean() {
     //以下代码只是UserServiceImpl的bean的创建过程-不通用
