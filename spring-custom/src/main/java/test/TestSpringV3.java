@@ -1,5 +1,9 @@
 package test;
 
+import com.xufangfang.spring.framework.reader.XmlBeanDefinitionReader;
+import com.xufangfang.spring.framework.resource.Resource;
+import com.xufangfang.spring.framework.resource.support.ClassPathResource;
+import com.xufangfang.spring.framework.utils.DocumentUtils;
 import org.dom4j.Document;
 import org.junit.Before;
 import org.junit.Test;
@@ -17,18 +21,25 @@ import java.util.Map;
  */
 public class TestSpringV3 {
 
-    @Before
-    public void before() {
+
+    @Test
+    public void test(){
         // XML解析，将BeanDefinition注册到beanDefinitions集合中
         String location="beans.xml";
         // 获取流对象
-        InputStream inputStream = getInputStream(location);
-        // 创建文档对象
-        Document document=createDocument(inputStream);
+        Resource resource=new ClassPathResource(location);
+        InputStream inputStream = resource.getResource();
+        // 创建文档对象:找个工具类
+        Document document= DocumentUtils.createDocument(inputStream);
+        //BeanDefinition阅读器:解析并注册BeanDefinition的功能
+        //将BeanDefinition存储到一个地方：BeanDefinitionRegistry
+        XmlBeanDefinitionReader beanDefinitionReader=new XmlBeanDefinitionReader();
+
+
         parseBeanDefinitions(document.getRootElement());
-    }
-    @Test
-    public void test(){
+
+
+
         UserService userService = (UserService) getBean("userService");
         Map<String, Object> param = new HashMap<String, Object>();
         param.put("username", "方方");

@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c84ac754-df96-4abd-9f0a-8c13144f8dcc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-framework-custom-14/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-framework-custom-14/src/main/java/com/xufangfang/spring/framework/resource/Resource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-framework-custom-14/src/main/java/com/xufangfang/spring/framework/factory/BeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-framework-custom-14/src/main/java/com/xufangfang/spring/framework/factory/support/AbstractBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-framework-custom-14/src/main/java/com/xufangfang/spring/framework/ioc/BeanDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-framework-custom-14/src/main/java/com/xufangfang/spring/framework/ioc/PropertyValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-framework-custom-14/src/main/java/com/xufangfang/spring/framework/ioc/RuntimeBeanReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-framework-custom-14/src/main/java/com/xufangfang/spring/framework/ioc/TypedStringValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-framework-custom-14/src/main/java/com/xufangfang/spring/framework/reader/XmlBeanDefinitionReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-framework-custom-14/src/main/java/com/xufangfang/spring/framework/resource/support/ClassPathResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-framework-custom-14/src/main/java/com/xufangfang/spring/framework/utils/DocumentUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spring家族.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/Spring家族.xmind" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-custom/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-custom/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-custom/src/main/java/test/TestSpringV3.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-custom/src/main/java/test/TestSpringV3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-framework-custom-14/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-custom-14/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -51,7 +59,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-custom/src/main/java/ioc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-framework-custom-14/src/main/java/com/xufangfang/spring/framework/ioc" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -63,15 +71,16 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\47284\Documents\GitHub\Spring-family\spring-custom\src\main\java\ioc" />
-      <recent name="C:\Users\47284\Documents\GitHub\Spring-family\spring-custom\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\47284\Documents\GitHub\Spring-family" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ioc" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\47284\Documents\GitHub\Spring-family" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\47284\Documents\GitHub\Spring-family\spring-framework-custom-14\src\main\java\com\xufangfang\spring\framework\ioc" />
+      <recent name="C:\Users\47284\Documents\GitHub\Spring-family\spring-custom\src\main\java\ioc" />
+      <recent name="C:\Users\47284\Documents\GitHub\Spring-family\spring-custom\src\main\resources" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.TestSpringV2.test">
@@ -127,7 +136,7 @@
       <workItem from="1589470147488" duration="13210000" />
       <workItem from="1589637517376" duration="682000" />
       <workItem from="1589897717020" duration="2926000" />
-      <workItem from="1589907970892" duration="1717000" />
+      <workItem from="1589907970892" duration="5921000" />
     </task>
     <servers />
   </component>
@@ -205,10 +214,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1589558212443" />
-    <state x="574" y="106" key="#com.intellij.ide.util.MemberChooser" timestamp="1589628572828">
+    <state x="574" y="106" key="#com.intellij.ide.util.MemberChooser" timestamp="1589987066341">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="106" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1589628572827" />
+    <state x="574" y="106" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1589987066341" />
     <state width="450" height="466" key="DebuggerActiveHint" timestamp="1589631743153">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
