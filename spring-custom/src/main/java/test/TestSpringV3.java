@@ -1,11 +1,9 @@
 package test;
 
 import com.xufangfang.spring.framework.reader.XmlBeanDefinitionReader;
+import com.xufangfang.spring.framework.factory.support.DefaultListableBeanFactory;
 import com.xufangfang.spring.framework.resource.Resource;
 import com.xufangfang.spring.framework.resource.support.ClassPathResource;
-import com.xufangfang.spring.framework.utils.DocumentUtils;
-import org.dom4j.Document;
-import org.junit.Before;
 import org.junit.Test;
 import po.User;
 import service.UserService;
@@ -29,18 +27,17 @@ public class TestSpringV3 {
         // 获取流对象
         Resource resource=new ClassPathResource(location);
         InputStream inputStream = resource.getResource();
-        // 创建文档对象:找个工具类
-        Document document= DocumentUtils.createDocument(inputStream);
         //BeanDefinition阅读器:解析并注册BeanDefinition的功能
         //将BeanDefinition存储到一个地方：BeanDefinitionRegistry
-        XmlBeanDefinitionReader beanDefinitionReader=new XmlBeanDefinitionReader();
+        //定义Spring容器，它本身也是一个BeanDefinitionRegistry
+        DefaultListableBeanFactory beanFactory=new DefaultListableBeanFactory();
+        /**
+         * 最小认知
+         */
+        XmlBeanDefinitionReader beanDefinitionReader=new XmlBeanDefinitionReader(beanFactory);
 
-
-        parseBeanDefinitions(document.getRootElement());
-
-
-
-        UserService userService = (UserService) getBean("userService");
+        beanDefinitionReader.registerBeanDefinitions(inputStream);
+        UserService userService = (UserService) beanFactory.getBean("userService");
         Map<String, Object> param = new HashMap<String, Object>();
         param.put("username", "方方");
         List<User> users = userService.queryUsers(param);
