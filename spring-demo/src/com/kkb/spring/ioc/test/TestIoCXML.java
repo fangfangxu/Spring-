@@ -31,7 +31,7 @@ public class TestIoCXML {
 		Resource resource = new ClassPathResource(path);
 		XmlBeanFactory beanFactory = new XmlBeanFactory(resource );
 		// Bean实例创建流程
-		DataSource dataSource = (DataSource) beanFactory.getBean("dataSource");
+		DataSource dataSource = (DataSource) beanFactory.getBean("ds");
 		System.out.println(dataSource);
 	}
 
