@@ -5,7 +5,8 @@ import com.xufangfang.spring.framework.factory.BeanFactory;
 import java.util.List;
 
 /**
- * 可列表化的展示Spring容器中的bean实例
+ *
+ * //TODO 可列表化的展示Spring容器中的bean实例
  */
 public interface ListableBeanFactory extends BeanFactory {
     /**
