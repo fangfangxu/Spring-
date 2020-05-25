@@ -1,9 +1,5 @@
 package aop.factory;
 
-import aop.target.UserService;
-import aop.target.UserServiceImpl;
-import org.junit.Test;
-
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
