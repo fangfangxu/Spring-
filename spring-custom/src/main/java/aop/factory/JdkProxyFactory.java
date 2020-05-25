@@ -1,5 +1,9 @@
 package aop.factory;
 
+import aop.target.UserService;
+import aop.target.UserServiceImpl;
+import org.junit.Test;
+
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
@@ -49,4 +53,6 @@ public class JdkProxyFactory implements InvocationHandler {
         //增强代码
         return returnValue;
     }
+
+
 }
