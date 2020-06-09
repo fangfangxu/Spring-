@@ -5,12 +5,24 @@
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
 
-  <servlet>
-          <servlet-name>MyServlet</servlet-name>
-          <servlet-class>com.xufangfang.servlet.MyServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>MyServlet</servlet-name>
-    <url-pattern>/myservlet</url-pattern>
-  </servlet-mapping>
+<!--  <servlet>-->
+<!--          <servlet-name>MyServlet</servlet-name>-->
+<!--          <servlet-class>com.xufangfang.servlet.MyServlet</servlet-class>-->
+<!--  </servlet>-->
+<!--  <servlet-mapping>-->
+<!--    <servlet-name>MyServlet</servlet-name>-->
+<!--    <url-pattern>/myservlet</url-pattern>-->
+<!--  </servlet-mapping>-->
+
+    <servlet>
+        <servlet-name>MyServletTwo</servlet-name>
+        <servlet-class>com.xufangfang.servlet.MyServletTwo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MyServletTwo</servlet-name>
+        <url-pattern>/myServletTwo</url-pattern>
+    </servlet-mapping>
+
+
+
 </web-app>
