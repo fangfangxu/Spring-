@@ -20,7 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c84ac754-df96-4abd-9f0a-8c13144f8dcc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/com/xufangfang/servlet/MyServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +90,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -101,94 +104,6 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\47284\Documents\GitHub\Spring-family" />
     </key>
-  </component>
-  <component name="RunManager" selected="JUnit.TestJdbc.testV1">
-    <configuration name="JdkProxyFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aop.factory.JdkProxyFactory" />
-      <module name="spring-custom" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="aop.factory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JdkProxyFactory.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-custom" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="aop.factory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="aop.factory" />
-      <option name="MAIN_CLASS_NAME" value="aop.factory.JdkProxyFactory" />
-      <option name="METHOD_NAME" value="main" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestAop.testCglibProxy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-custom" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="aop.targetfile.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="aop.targetfile" />
-      <option name="MAIN_CLASS_NAME" value="aop.targetfile.TestAop" />
-      <option name="METHOD_NAME" value="testCglibProxy" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestAop.testJdkProxy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-custom" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="aop.targetfile.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="aop.targetfile" />
-      <option name="MAIN_CLASS_NAME" value="aop.targetfile.TestAop" />
-      <option name="METHOD_NAME" value="testJdkProxy" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestJdbc.testV1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kkb.spring.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kkb.spring" />
-      <option name="MAIN_CLASS_NAME" value="com.kkb.spring.TestJdbc" />
-      <option name="METHOD_NAME" value="testV1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.TestJdbc.testV1" />
-        <item itemvalue="JUnit.TestAop.testCglibProxy" />
-        <item itemvalue="JUnit.TestAop.testJdkProxy" />
-        <item itemvalue="JUnit.JdkProxyFactory.main" />
-        <item itemvalue="Application.JdkProxyFactory" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -218,6 +133,8 @@
       <workItem from="1590671445855" duration="2747000" />
       <workItem from="1591021686543" duration="6505000" />
       <workItem from="1591115040140" duration="1274000" />
+      <workItem from="1591711792551" duration="1821000" />
+      <workItem from="1591715366667" duration="1043000" />
     </task>
     <servers />
   </component>
@@ -301,18 +218,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1589986532773" />
-    <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589558212443">
+    <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591715484844">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1589558212443" />
+    <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1591715484844" />
     <state x="483" y="221" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591021716142">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="483" y="221" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1591021716142" />
-    <state x="574" y="106" key="#com.intellij.ide.util.MemberChooser" timestamp="1591114357375">
+    <state x="574" y="106" key="#com.intellij.ide.util.MemberChooser" timestamp="1591714408336">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="106" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1591114357375" />
+    <state x="574" y="106" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1591714408336" />
     <state x="523" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1590422110211">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -329,22 +246,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="354" y="0" width="438" height="618" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1591024503576" />
-    <state width="1493" height="105" key="GridCell.Tab.0.bottom" timestamp="1591114916631">
+    <state width="1493" height="70" key="GridCell.Tab.0.bottom" timestamp="1591716378586">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="105" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591114916631" />
-    <state width="1493" height="105" key="GridCell.Tab.0.center" timestamp="1591114916631">
+    <state width="1493" height="70" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591716378586" />
+    <state width="1493" height="70" key="GridCell.Tab.0.center" timestamp="1591716378586">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="105" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591114916631" />
-    <state width="1493" height="105" key="GridCell.Tab.0.left" timestamp="1591114916630">
+    <state width="1493" height="70" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591716378586" />
+    <state width="1493" height="70" key="GridCell.Tab.0.left" timestamp="1591716378585">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="105" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591114916630" />
-    <state width="1493" height="105" key="GridCell.Tab.0.right" timestamp="1591114916631">
+    <state width="1493" height="70" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591716378585" />
+    <state width="1493" height="70" key="GridCell.Tab.0.right" timestamp="1591716378586">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="105" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591114916631" />
+    <state width="1493" height="70" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591716378586" />
     <state width="1493" height="212" key="GridCell.Tab.1.bottom" timestamp="1591114916575">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -365,10 +282,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="816" y="211" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1590165909977" />
-    <state x="242" y="0" key="SettingsEditor" timestamp="1590421461188">
+    <state x="242" y="0" key="SettingsEditor" timestamp="1591714592554">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="242" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1590421461188" />
+    <state x="242" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1591714592554" />
     <state width="616" height="519" key="SwitcherDM" timestamp="1590334830790">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
