@@ -11,6 +11,7 @@ public class MyServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        resp.setContentType("text/plain;charset=utf8");
         resp.getWriter().write("wyx最帅");
     }
 
