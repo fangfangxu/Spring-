@@ -14,15 +14,31 @@
 <!--    <url-pattern>/myservlet</url-pattern>-->
 <!--  </servlet-mapping>-->
 
-    <servlet>
-        <servlet-name>MyServletTwo</servlet-name>
-        <servlet-class>com.xufangfang.servlet.MyServletTwo</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>MyServletTwo</servlet-name>
-        <url-pattern>/myServletTwo</url-pattern>
-    </servlet-mapping>
+<!--    <servlet>-->
+<!--        <servlet-name>MyServletTwo</servlet-name>-->
+<!--        <servlet-class>com.xufangfang.servlet.MyServletTwo</servlet-class>-->
+<!--    </servlet>-->
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>MyServletTwo</servlet-name>-->
+<!--        <url-pattern>/myServletTwo</url-pattern>-->
+<!--    </servlet-mapping>-->
 
+<!--    <servlet>-->
+<!--        <servlet-name>MyServletThree</servlet-name>-->
+<!--        <servlet-class>com.xufangfang.servlet.MyServletThree</servlet-class>-->
+<!--    </servlet>-->
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>MyServletThree</servlet-name>-->
+<!--        <url-pattern>/myServletThree</url-pattern>-->
+<!--    </servlet-mapping>-->
 
+      <servlet>
+          <servlet-name>DispatcherServlet</servlet-name>
+          <servlet-class>com.xufangfang.springmvc.servlet.DispatcherServlet</servlet-class>
+      </servlet>
+      <servlet-mapping>
+          <servlet-name>DispatcherServlet</servlet-name>
+          <url-pattern>/</url-pattern>
+      </servlet-mapping>
 
 </web-app>
